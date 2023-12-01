@@ -37,7 +37,7 @@ def folcalLength_cal(distance, r_height, v_height):
 
 # function for distance estimating from license plate 
 def distance_est(focal_length, r_height, v_height):
-    distance = (focal_length*r_height)/v_height
+    distance = (focal_length*r_height)/ (v_height)
     return distance
 
 
